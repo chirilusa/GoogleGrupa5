@@ -17,10 +17,9 @@ def my_function():
 
     my_second_function()
     msg = "Hello1"
-    print (f"Functia Principala {msg}")
+    print(f"Functia Principala {msg}")
     return None
 
 
 my_function()
 print(msg)
-
