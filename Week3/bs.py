@@ -3,7 +3,7 @@ import requests
 
 r = requests.get("https://www.bnr.ro/Cursul-de-schimb--7372.aspx")
 # print(r)  # afiseaza incarcarea paginii cu succes
-# print(r.text) #afiseaza sursa paginii
+# print(r.text) # afiseaza sursa paginii
 link = BeautifulSoup(r.text, "html.parser")
 # print(link)
 
