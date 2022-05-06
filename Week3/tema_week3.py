@@ -12,6 +12,7 @@
 
 # Functie recursiva
 
+
 def func_rec(n):
     if n == 1:
         return 1
